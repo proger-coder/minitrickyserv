@@ -5,6 +5,8 @@ const port = process.env.PORT||8080
 const OBJ = {
     name:"Ayrat",
     age:31,
+    fileExecuted:"NODEserver.js",
+    project:"myTrickyServer",
     status:"Heroku responding"
 }
 const server = http.createServer((req, res) => {

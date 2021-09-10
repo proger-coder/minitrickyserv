@@ -7,8 +7,8 @@ fetchButton.onclick = ()=> {
     //alert("кнопка нажата")
 
     fetch(
-        urlHeroku           //выбираем, если надо обращаться к Хероку
-        //urlLocal          //выбираем, если надо обращаться к локалХост серверу
+        //urlHeroku           //выбираем, если надо обращаться к Хероку
+        urlLocal          //выбираем, если надо обращаться к локалХост серверу
     ).then(response => {
         if (response.ok) {
             return response.json();
